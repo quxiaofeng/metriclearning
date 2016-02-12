@@ -62,7 +62,7 @@
 
 ### 明可夫斯基距离 ###
 
-\\(\\forall \\mathbf{x}, \\mathbf{y} \\in \\mathbb{R}^n, n \\in \\mathbb{N}\\),
+也称为 \\(l\_p\\) 度量。\\(\\forall \\mathbf{x}, \\mathbf{y} \\in \\mathbb{R}^n, n \\in \\mathbb{N}\\),
 
 \\[d\_{Minkowski}(\\mathbf{x},\\mathbf{y}) = \\left(\\sum^n\_{i=1}|x\_i - y\_i|\\right)^{\\frac{1}{p}}\\]
 
