@@ -39,5 +39,5 @@ Given the equivalence constraints in S and the inequivalence constraints in D, [
 \\]
 
 \\[
-s.t. \\phatom{xxxxxx} \\mathbf{A} \\succeq 0, \\sum\_{(\\mathbf{x}\_i, \\mathbf{x}\_j) \\in \\mathcal{D}} \\|\\mathbf{x}\_i - \\mathbf{x}\_j\\|^2\_{\\mathbf{A}} \\geq 1
+s.t. \\phantom{xxxxxx} \\mathbf{A} \\succeq 0, \\sum\_{(\\mathbf{x}\_i, \\mathbf{x}\_j) \\in \\mathcal{D}} \\|\\mathbf{x}\_i - \\mathbf{x}\_j\\|^2\_{\\mathbf{A}} \\geq 1
 \\]
