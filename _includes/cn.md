@@ -28,17 +28,13 @@
 
 距离（度量）函数\\(d(\\mathbf{x},\\mathbf{y})\\)是从两个向量\\(\\mathbf{x},\\mathbf{y} \\in \\mathbf{X}\\)到一个标量的映射，需要满足如下条件。
 
-\\[\text{1) }d(\\mathbf{x},\\mathbf{x}) = 0, \\forall \\mathbf{x} \\in \\mathbf{X}.\\]
-相同向量间距离为零。
+1) \\(d(\\mathbf{x},\\mathbf{x}) = 0, \\forall \\mathbf{x} \\in \\mathbf{X}.\\) 相同向量间距离为零。
 
-\\[\text{2) }d(\\mathbf{x},\\mathbf{y}) > 0, \\forall \\mathbf{x} \\neq \\mathbf{y} \\in \\mathbf{X}.\\]
-正性：不同向量间距离为正值。
+2) \\(d(\\mathbf{x},\\mathbf{y}) > 0, \\forall \\mathbf{x} \\neq \\mathbf{y} \\in \\mathbf{X}.\\) 正性：不同向量间距离为正值。
 
-\\[\text{3) }d(\\mathbf{x},\\mathbf{y}) = d(\\mathbf{y},\\mathbf{x})， \\forall \\mathbf{x}，\\mathbf{y} \\in \\mathbf{X}.\\]
-对称性：交换两向量位置，得到同样的距离。
+3) \\(d(\\mathbf{x},\\mathbf{y}) = d(\\mathbf{y},\\mathbf{x})， \\forall \\mathbf{x}，\\mathbf{y} \\in \\mathbf{X}.\\) 对称性：交换两向量位置，得到同样的距离。
 
-\\[\text{4) }d(\\mathbf{x},\\mathbf{z}) \\leq d(\\mathbf{x},\\mathbf{y}) + d(\\mathbf{y},\\mathbf{z}), \\forall \\mathbf{x}，\\mathbf{y}，\\mathbf{z} \\in \\mathbf{X}.\\]
-三角形不等式：两边之和大于第三边。
+4) \\(d(\\mathbf{x},\\mathbf{z}) \\leq d(\\mathbf{x},\\mathbf{y}) + d(\\mathbf{y},\\mathbf{z}), \\forall \\mathbf{x}，\\mathbf{y}，\\mathbf{z} \\in \\mathbf{X}.\\) 三角形不等式：两边之和大于第三边。
 
 ### 欧几里得距离 ###
 
