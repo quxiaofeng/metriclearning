@@ -55,7 +55,6 @@ Distance is function \\(d(\\mathbf{x},\\mathbf{y})\\).
 
 2) \\(d(\\mathbf{x},\\mathbf{y}) > 0, \\forall \\mathbf{x} \\neq \\mathbf{y} \\in \\mathbf{X}.\\)
 
-3) \\(d(\\mathbf{x},\\mathbf{y}) = d(\\mathbf{y},\\mathbf{x})， \\forall \\mathbf{x}, \\mathbf{y} \\in \\mathbf{X}.\\)
+3) \\(d(\\mathbf{x},\\mathbf{y}) = d(\\mathbf{y},\\mathbf{x}), \\forall \\mathbf{x}, \\mathbf{y} \\in \\mathbf{X}.\\)
 
 4) \\(d(\\mathbf{x},\\mathbf{z}) \\leq d(\\mathbf{x},\\mathbf{y}) + d(\\mathbf{y},\\mathbf{z}), \\forall \\mathbf{x}, \\mathbf{y}, \\mathbf{z} \\in \\mathbf{X}.\\)
-
