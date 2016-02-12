@@ -1,6 +1,7 @@
 [English](/) | [中文](/cn/)
 
-## Surveys ##
+Surveys
+-------
 
 + [A Survey on Metric Learning for Feature Vectors and Structured Data](http://arxiv.org/pdf/1306.6709v4.pdf) (2014) by *Aurélien Bellet, Amaury Habrard, Marc Sebban*
 
@@ -8,7 +9,8 @@
 
 + [Distance Metric Learning: A Comprehensive Survey](http://www.cs.cmu.edu/~liuy/frame_survey_v2.pdf) (2006) by *Liu Yang*
 
-## Framework ##
+Framework
+---------
 
 ### Pairwise Constraints ###
 
@@ -41,3 +43,16 @@ Given the equivalence constraints in S and the inequivalence constraints in D, [
 \\[
 \\text{s.t.} \\quad \\mathbf{A} \\succeq 0, \\sum\_{(\\mathbf{x}\_i, \\mathbf{x}\_j) \\in \\mathcal{D}} \\|\\mathbf{x}\_i - \\mathbf{x}\_j\\|^2\_{\\mathbf{A}} \\geq 1
 \\]
+
+Traditional Metrics - Distance
+------------------------------
+
+### Definition ###
+
+Distance is function \\(d(\\mathbf{x},\\mathbf{y})\\).
+
+\\[\text{1) }d(\\mathbf{x},\\mathbf{x}) = 0\\]
+\\[\text{2) }d(\\mathbf{x},\\mathbf{y}) \\geq 0\\]
+\\[\text{3) }d(\\mathbf{x},\\mathbf{y}) = d(\\mathbf{y},\\mathbf{x})\\]
+\\[\text{4) }d(\\mathbf{x},\\mathbf{k}) + d(\\mathbf{k},\\mathbf{y}) \\geq d(\\mathbf{x},\\mathbf{y})\\]
+
