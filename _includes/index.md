@@ -51,8 +51,11 @@ Traditional Metrics - Distance
 
 Distance is function \\(d(\\mathbf{x},\\mathbf{y})\\).
 
-1) \\(d(\\mathbf{x},\\mathbf{x}) = 0\\)
-2) \\(d(\\mathbf{x},\\mathbf{y}) \\geq 0\\)
-3) \\(d(\\mathbf{x},\\mathbf{y}) = d(\\mathbf{y},\\mathbf{x})\\)
-4) \\(d(\\mathbf{x},\\mathbf{k}) + d(\\mathbf{k},\\mathbf{y}) \\geq d(\\mathbf{x},\\mathbf{y})\\)
+1) \\(d(\\mathbf{x},\\mathbf{x}) = 0, \\forall \\mathbf{x} \\in \\mathbf{X}.\\)
+
+2) \\(d(\\mathbf{x},\\mathbf{y}) > 0, \\forall \\mathbf{x} \\neq \\mathbf{y} \\in \\mathbf{X}.\\)
+
+3) \\(d(\\mathbf{x},\\mathbf{y}) = d(\\mathbf{y},\\mathbf{x})， \\forall \\mathbf{x}, \\mathbf{y} \\in \\mathbf{X}.\\)
+
+4) \\(d(\\mathbf{x},\\mathbf{z}) \\leq d(\\mathbf{x},\\mathbf{y}) + d(\\mathbf{y},\\mathbf{z}), \\forall \\mathbf{x}, \\mathbf{y}, \\mathbf{z} \\in \\mathbf{X}.\\)
 
