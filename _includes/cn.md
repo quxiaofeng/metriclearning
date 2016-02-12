@@ -38,14 +38,31 @@
 
 ### 欧几里得度量 ###
 
-也称为 \\(l^2\\) 或者 \\(l\_2\\) 度量。\\(\\forall \\mathbf{x}, \\mathbf{y} \\in \\mathbb{R}^n, n \\in \\mathbb{N}\\),
+也称为欧式距离、 \\(l^2\\) 或者 \\(l\_2\\) 度量。\\(\\forall \\mathbf{x}, \\mathbf{y} \\in \\mathbb{R}^n, n \\in \\mathbb{N}\\),
 
 \\[d\_{l^2}(\\mathbf{x},\\mathbf{y}) = \\sqrt{\\sum^n\_{i=1}(x\_i - y\_i)^2}\\]
 
 ### 出租车度量 ###
 
-也称为 \\(l^1\\) 或者 \\(l\_1\\) 度量。\\(\\forall \\mathbf{x}, \\mathbf{y} \\in \\mathbb{R}^n, n \\in \\mathbb{N}\\),
+也称为曼哈顿距离、 \\(l^1\\) 或者 \\(l\_1\\) 度量。\\(\\forall \\mathbf{x}, \\mathbf{y} \\in \\mathbb{R}^n, n \\in \\mathbb{N}\\),
 
 \\[d\_{l^1}(\\mathbf{x},\\mathbf{y}) = \\sum^n\_{i=1}\\|x\_i - y\_i\\|\\]
 
+### 上确界范数度量 ###
+
+也称为 \\(l^\\infty\\) 或者 \\(l\_{\\infty}\\) 度量。\\(\\forall \\mathbf{x}, \\mathbf{y} \\in \\mathbb{R}^n, n \\in \\mathbb{N}\\),
+
+\\[d\_{l^{\\infty}}(\\mathbf{x},\\mathbf{y}) = \\sup^n\_{i=1}\\|x\_i - y\_i\\|\\]
+
+### 切比雪夫距离 ###
+
+\\(\\forall \\mathbf{x}, \\mathbf{y} \\in \\mathbb{R}^n, n \\in \\mathbb{N}\\),
+
+\\[d\_{Chebyshev}(\\mathbf{x},\\mathbf{y}) = \\max^n\_{i=1}\\|x\_i - y\_i\\|\\]
+
+### 明可夫斯基距离 ###
+
+\\(\\forall \\mathbf{x}, \\mathbf{y} \\in \\mathbb{R}^n, n \\in \\mathbb{N}\\),
+
+\\[d\_{Minkowski}(\\mathbf{x},\\mathbf{y}) = \\left(\\sum^n\_{i=1}\\|x\_i - y\_i\\|\\right)^{\\frac{1}{p}}\\]
 
