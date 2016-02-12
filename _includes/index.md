@@ -35,7 +35,7 @@ d^2\_{\\mathbf{A}}(\\mathbf{x},\\mathbf{y}) = \\|\\mathbf{x} - \\mathbf{y}\\|^2\
 Given the equivalence constraints in S and the inequivalence constraints in D, [11] formulated the problem of metric learning into the following convex programming problem [14]:
 
 \\[
-\\min\_{\\mathbf{A} \\in \\Re^{m \\times m}} \\min\_{(\\mathbf{x}\_i, \\mathbf{x}\_j) \\in \\mathcal{S}} \\|\\mathbf{x}\_i - \\mathbf{x}\_j\\|^2\_{\\mathbf{A}}
+\\min\_{\\mathbf{A} \\in \\Re^{m \\times m}} \\sum\_{(\\mathbf{x}\_i, \\mathbf{x}\_j) \\in \\mathcal{S}} \\|\\mathbf{x}\_i - \\mathbf{x}\_j\\|^2\_{\\mathbf{A}}
 \\]
 
 \\[
