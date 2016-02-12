@@ -36,6 +36,16 @@
 
 4) \\(d(\\mathbf{x},\\mathbf{z}) \\leq d(\\mathbf{x},\\mathbf{y}) + d(\\mathbf{y},\\mathbf{z}), \\forall \\mathbf{x}, \\mathbf{y}, \\mathbf{z} \\in \\mathbf{X}.\\) 三角形不等式：两边之和大于第三边。
 
-### 欧几里得距离 ###
+### 欧几里得度量 ###
 
-也称为\\(l^2\\)度量\\(d\_{l^2}(\\mathbf{x},\\mathbf{y}) = \\sqrt{\\left(\\sum^n\_{i=1}(x\_i - y\_i)^2\\right)}\\)
+也称为\\(l^2\\)度量。\\(\\forall \\mathbf{x}, \\mathbf{y} \\in \\mathbb{R}^n, n \\in \\mathbb{N}\\),
+
+\\[d\_{l^2}(\\mathbf{x},\\mathbf{y}) = \\sqrt{\\sum^n\_{i=1}(x\_i - y\_i)^2}\\]
+
+### 出租车度量 ###
+
+也称为\\(l^1\\)度量。\\(\\forall \\mathbf{x}, \\mathbf{y} \\in \\mathbb{R}^n, n \\in \\mathbb{N}\\),
+
+\\[d\_{l^1}(\\mathbf{x},\\mathbf{y}) = \\sum^n\_{i=1}\\|x\_i - y\_i\\|\\]
+
+

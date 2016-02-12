@@ -14,7 +14,7 @@ Framework
 
 ### Pairwise Constraints ###
 
-Let \\(\\mathcal{C} = \{x\_1, x\_2,\\ldots,x\_n\}\\) be a collection of data points, where \\(n\\) is the number of samples in the collection. Each \\(x\_i \\in \\Re^m\\) is a data vector where \\(m\\) is the number of features. Let the set of equivalence constraints denoted by
+Let \\(\\mathcal{C} = \{x\_1, x\_2,\\ldots,x\_n\}\\) be a collection of data points, where \\(n\\) is the number of samples in the collection. Each \\(x\_i \\in \\mathbb{R}^m\\) is a data vector where \\(m\\) is the number of features. Let the set of equivalence constraints denoted by
 
 \\[
 \\mathcal{S} = \\{(x\_i, x\_j) | x\_i\\text{ and }x\_j\\text{ belong to the same class}\\}
@@ -26,7 +26,7 @@ and the set of inequivalence constraints denoted by
 \\mathcal{D} = \\{(x\_i, x\_j) | x\_i\\text{ and }x\_j\\text{ belong to different classes}\\}
 \\]
 
-Let the distance metric denoted by matrix \\(\\mathbf{A} \\in \\Re^{m \times m}\\), and the distance between any two data points \\(\\mathbf{x}\\) and \\(\\mathbf{y}\\) expressed by
+Let the distance metric denoted by matrix \\(\\mathbf{A} \\in \\mathbb{R}^{m \times m}\\), and the distance between any two data points \\(\\mathbf{x}\\) and \\(\\mathbf{y}\\) expressed by
 
 \\[
 d^2\_{\\mathbf{A}}(\\mathbf{x},\\mathbf{y}) = \\|\\mathbf{x} - \\mathbf{y}\\|^2\_{\\mathbf{A}} = (\\mathbf{x} - \\mathbf{y})^T \\mathbf{A} (\\mathbf{x} - \\mathbf{y}) 
@@ -37,7 +37,7 @@ d^2\_{\\mathbf{A}}(\\mathbf{x},\\mathbf{y}) = \\|\\mathbf{x} - \\mathbf{y}\\|^2\
 Given the equivalence constraints in S and the inequivalence constraints in D, [11] formulated the problem of metric learning into the following convex programming problem [14]:
 
 \\[
-\\min\_{\\mathbf{A} \\in \\Re^{m \\times m}} \\sum\_{(\\mathbf{x}\_i, \\mathbf{x}\_j) \\in \\mathcal{S}} \\|\\mathbf{x}\_i - \\mathbf{x}\_j\\|^2\_{\\mathbf{A}}
+\\min\_{\\mathbf{A} \\in \\mathbb{R}^{m \\times m}} \\sum\_{(\\mathbf{x}\_i, \\mathbf{x}\_j) \\in \\mathcal{S}} \\|\\mathbf{x}\_i - \\mathbf{x}\_j\\|^2\_{\\mathbf{A}}
 \\]
 
 \\[
