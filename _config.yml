@@ -1,0 +1,8 @@
+markdown: redcarpet
+pygments: true
+
+url: http://www.metriclearning.ml
+baseurl:
+
+title_tag_text: Metric Learning
+h1_tag_text: Metric Learning
