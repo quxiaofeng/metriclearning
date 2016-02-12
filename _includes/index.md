@@ -15,13 +15,13 @@
 Let \\(\\mathcal{C} = \{x\_1, x\_2,\\ldots,x\_n\}\\) be a collection of data points, where \\(n\\) is the number of samples in the collection. Each \\(x\_i \\in \\Re^m\\) is a data vector where \\(m\\) is the number of features. Let the set of equivalence constraints denoted by
 
 \\[
-\\mathcal{S} = \{(x\_i, x\_j) | x\_i and x\_j belong to the same class\}
+\\mathcal{S} = \\{(x\_i, x\_j) | x\_i\\text{ and }x\_j\\text{ belong to the same class}\\}
 \\]
 
 and the set of inequivalence constraints denoted by
 
 \\[
-\\mathcal{D} = \{(x\_i, x\_j) | x\_i and x\_j belong to different classes\}
+\\mathcal{D} = \\{(x\_i, x\_j) | x\_i\\text{ and }x\_j\\text{ belong to different classes}\\}
 \\]
 
 Let the distance metric denoted by matrix \\(\\mathbf{A} \\in \\Re^{m \times m}\\), and the distance between any two data points \\(\\mathbf{x}\\) and \\(\\mathbf{y}\\) expressed by
