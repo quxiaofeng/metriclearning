@@ -38,13 +38,13 @@
 
 ### 欧几里得度量 ###
 
-也称为\\(l^2\\)度量。\\(\\forall \\mathbf{x}, \\mathbf{y} \\in \\mathbb{R}^n, n \\in \\mathbb{N}\\),
+也称为 \\(l^2\\) 或者 \\(l\_2\\) 度量。\\(\\forall \\mathbf{x}, \\mathbf{y} \\in \\mathbb{R}^n, n \\in \\mathbb{N}\\),
 
 \\[d\_{l^2}(\\mathbf{x},\\mathbf{y}) = \\sqrt{\\sum^n\_{i=1}(x\_i - y\_i)^2}\\]
 
 ### 出租车度量 ###
 
-也称为\\(l^1\\)度量。\\(\\forall \\mathbf{x}, \\mathbf{y} \\in \\mathbb{R}^n, n \\in \\mathbb{N}\\),
+也称为 \\(l^1\\) 或者 \\(l\_1\\) 度量。\\(\\forall \\mathbf{x}, \\mathbf{y} \\in \\mathbb{R}^n, n \\in \\mathbb{N}\\),
 
 \\[d\_{l^1}(\\mathbf{x},\\mathbf{y}) = \\sum^n\_{i=1}\\|x\_i - y\_i\\|\\]
 
