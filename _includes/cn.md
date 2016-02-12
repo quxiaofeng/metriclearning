@@ -38,4 +38,4 @@
 
 ### 欧几里得距离 ###
 
-也称为\\(l^2\\)度量\\(d\_{l^2}(\\mathbf{x},\\mathbf{y}) = (\\sum^n\_{i=1}(x\_i - y\_i)^2)^{\\tfrac{1}{2}}\\)
+也称为\\(l^2\\)度量\\(d\_{l^2}(\\mathbf{x},\\mathbf{y}) = \\sqrt{\\left(\\sum^n\_{i=1}(x\_i - y\_i)^2\\right)}\\)
